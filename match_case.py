@@ -21,7 +21,7 @@ match guess:
   case guess if guess < secret_number:
     print('Nope, your guess is a bit low. Give it another shot!')
   case _:
-      print('Make a guess')
+      print('Invalid input')
 
 print()
 play_again = input('Would you like to play again? (yes / no) ')
